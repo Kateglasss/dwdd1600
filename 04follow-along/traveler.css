@@ -37,9 +37,8 @@ nav a {
 
 
 nav li.active a {
-    background-color: #02487;
+    background-color: #024873;
     color: #F2b705;
-    
 }
 
 
@@ -53,7 +52,7 @@ main {
 }
 
 main h1 {
-    color: #840412;
+    color: #B40412;
 }
 main h2 {
     color: #024873;
@@ -68,7 +67,7 @@ main ol {
     background-color: #efefef;
 }
 main dl dt {
-    color: #840412;
+    color: #B40412;
     font-weight: 700;
     margin-top: 1rem;
 }
