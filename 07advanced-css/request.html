@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kate Glass">
+    <meta name="description" content="Holistic Healing, Rooted in Nature.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="apothecary.css">
+    <title>Rooted Grace Apothecary: Our Story</title>
+</head>
+
+<body>
+    <!--start the page head-->
+   <header class="main-header">
+        <img src="images/RGA logo (1).png" alt="logo for Rooted Grace Apothecary" class="header-logo" width="100" height="100";>
+        <span class="header-text">Rooted Grace Apothecary</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Our Story</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="herbs.html">Herbs</a></li>
+            <li class="active"><a href="request.html">Request a Sample</a></li>
+        </ul>
+    </nav>
+    <!--start the main content-->
+    <main>
+       <h1>Request a Sample</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+                <label>Email Address*<input type="text" name="email" required placeholder="you@example.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Herbs</legend>
+                <label><input type="checkbox" name="Black Seed" value="chosen">Black Seed</label>
+                <label><input type="checkbox" name="Chamomile" value="chosen">Chamomile</label>
+                <label><input type="checkbox" name="Echinacea" value="chosen">Echinacea</label>
+                <label><input type="checkbox" name="Holy Basil" value="chosen">Holy Basil</label>
+                <label><input type="checkbox" name="Lavender" value="chosen">Lavender</label>
+                <label><input type="checkbox" name="Lemon Balm" value="chosen">Lemon Balm</label>
+                <label><input type="checkbox" name="Maca" value="chosen">Maca</label>
+                <label><input type="checkbox" name="Milk Thistle" value="chosen">Milk Thistle</label>
+                <label><input type="checkbox" name="Moringa" value="chosen">Moringa</label>
+                <label><input type="checkbox" name="Sage" value="chosen">Sage</label>
+                <label><input type="checkbox" name="Vitex Berry" value="chosen">Vitex Berry</label>
+            </fieldset>
+
+<fieldset>
+
+    <legend>Select Sample Type</legend>
+    <label><input type="radio" name="type" value="Tincture">Tincture</label>
+    <label><input type="radio" name="type" value="Powder">Powder</label>
+    <label><input type="radio" name="type" value="Loose Leaf">Loose Leaf</label>
+    <label><input type="radio" name="type" value="Tea">Tea</label>
+
+    <label>Preferred Sample Size
+    <select name="Size">
+        <option value="none">Please Select</option>
+        <option value="1 oz">1 oz - Free</option>
+        <option value="2 oz">2 oz - $12.00</option>
+        <option value="4 oz">4 oz - $22.00</option>
+    </select>
+    </label>
+</fieldset>
+
+<label>Comments
+<textarea name="comments"></textarea>
+</label>
+
+
+            <input type="submit" value="Send Sample Request">
+        </form>
+
+    
+    </main>
+
+    <!--start the page footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Kate Glass &bull; Rooted Grace Apothecary</p>
+    </footer>
+
+</body>
+
+</html>
