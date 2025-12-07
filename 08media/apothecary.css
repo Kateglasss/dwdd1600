@@ -143,10 +143,12 @@ main em {
 
 main a {
     color: #4A3B31;
+    text-decoration: underline;
     
 }
 main a:hover {
-    color: rgb(180, 4, 18);
+    color: #728B80;
+    text-decoration: underline;
 }
 
 .hero {
